@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo wget http://cloud.ksamu.ru/index.php/s/wRpzarn8bZqo56Z/download
+sudo wget --no-check-certificate http://cloud.ksamu.ru/index.php/s/wRpzarn8bZqo56Z/download
 # распаковка=>переход в директорию 
 sudo unzip download
 cd distrib_ksamu_astra_1.6_update
