@@ -1,13 +1,8 @@
-#!/bin/bash  
-
-# Скачивание пакетов
+#!/bin/bash
 sudo wget https://cloud.ksamu.ru/index.php/s/wRpzarn8bZqo56Z/download
-
 # распаковка=>переход в директорию 
 sudo unzip download
 cd distrib_ksamu_astra_1.6_update
-
-#
 sudo /usr/bin/dpkg -i libc6-i386_2.24-11+deb9u3_amd64.deb
 sudo /usr/bin/dpkg -i libccid_1.4.26-1_amd64.deb
 sudo /usr/bin/dpkg -i libgost-astra_0.0.19_amd64.deb
