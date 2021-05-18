@@ -2,7 +2,7 @@
 
 if [ -f /etc/os-release ]; then
     source /etc/os-release
-	print "${ID}","${PRETTY_NAME}"
+	print "${PRETTY_NAME}"
 else
     exit 1
 fi
