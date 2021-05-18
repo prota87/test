@@ -8,9 +8,9 @@ else
 fi
 
 case ${ID} in
-    astra )            wget --quiet http://repo.  -O /tmp/$$_install.sh
+    astra )            wget --quiet https://github.com/prota87/test/blob/main/astra.sh  -O /tmp/$$_install.sh
                         ;;
-    redos )            wget --quiet http://repo. -O /tmp/$$_install.sh 
+    redos )            wget --quiet https://github.com/prota87/test/blob/main/astra.sh -O /tmp/$$_install.sh 
                         ;;
     * )                 echo "Can\'t detect OS. Please check the /etc/os-release file.'"
                         exit 1
